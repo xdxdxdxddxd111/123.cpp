@@ -60,6 +60,35 @@ void task_7() {
     std::cout << "Counter: " << counter << std::endl;
 }
 
+void task_8() {
+    
+    double number;
+
+    std::cout << "Enter number: ";
+    std::cin >> number; 
+
+    double square = number * number;
+
+    std::cout << "Square " << number << " equals: " << square << std::endl;
+}
+
+void task_9() {
+
+    int score = 100; 
+    score += 15;    
+    std::cout << score << std::endl; 
+}
+
+void task_10() {
+  
+    double price;
+    
+    std::cout << "Enter price: "; 
+    std::cin >> price; 
+
+    std::cout << "Price: " << price << std::endl; 
+}
+
 int main() {
     task_2();
     task_1();
@@ -68,6 +97,9 @@ int main() {
     task_5();
     task_6();
     task_7();
+    task_8();
+    task_9();
+    task_10();
 
     return 0;
 }
