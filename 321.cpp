@@ -40,7 +40,6 @@ void task_5() {
     std::cout << "Weight: " << circumference << std::endl;
 }
 
-
 void task_6() {
     int a = 10;
     int b = 3;
@@ -52,6 +51,14 @@ void task_6() {
     std::cout << "a % b: " << remainder << std::endl;
 }
 
+void task_7() {
+    int counter = 0;
+
+    for (int i = 0; i < 5; ++i) {
+        counter++; 
+    }
+    std::cout << "Counter: " << counter << std::endl;
+}
 
 int main() {
     task_2();
@@ -60,6 +67,7 @@ int main() {
     task_4();
     task_5();
     task_6();
+    task_7();
 
     return 0;
 }
